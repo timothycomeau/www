@@ -1,0 +1,20 @@
+/*==================================================================*/
+/* Basics
+/*==================================================================*/
+
+html {
+	box-sizing:border-box;
+}
+*, *:before, *:after {
+	box-sizing:inherit;
+	/* http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+}
+
+%clear{
+	&:after {
+    content: "";
+    display: table;
+    clear: both;
+    /*http://blog.teamtreehouse.com/a-better-clearfix-with-sass */
+  }
+}
