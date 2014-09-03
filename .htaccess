@@ -1,11 +1,11 @@
 
-RewriteEngine On
+# RewriteEngine On
 
 # use this to rewrite urls
-RewriteRule ^URL$ PATH HREF  [L]
+#RewriteRule ^URL$ PATH HREF  [L]
 
 # use this to redirect to an entirely new site
-RewriteRule ^URL$ NEW HREF [L,R=301]
+# RewriteRule ^URL$ NEW HREF [L,R=301]
 
 
 
